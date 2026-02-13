@@ -44,6 +44,7 @@ showz_marketing_roi/
 │   ├── metrics.py
 │   └── plotting.py
 ├── environment.yml
+├── requirements.txt
 ├── LICENCE
 └── README.md
 ```
