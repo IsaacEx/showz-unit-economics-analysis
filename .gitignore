@@ -43,7 +43,8 @@ desktop.ini
 # Datos procesados
 # (se regeneran ejecutando data_cleaning.ipynb)
 # ========================
-data/processed/
+data/processed/*
+!data/processed/.gitkeep
 
 # ========================
 # Archivos temporales
