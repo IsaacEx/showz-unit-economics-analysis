@@ -26,16 +26,14 @@ El entorno se define en `environment.yml` (Conda). Creación: `conda env create 
 showz_marketing_roi/
 ├── .cursorrules
 ├── .gitignore
-├── .vscode/
-│   └── settings.json
 ├── data/
 │   ├── raw/                 # Datos originales (CSV)
 │   │   ├── visits_log.csv
 │   │   ├── orders_log.csv
 │   │   └── costs.csv
 │   └── processed/           # Parquets generados al ejecutar `data_cleaning.ipynb`
-│       ├── visits.parquet
-│       ├── orders.parquet
+│       ├── visits.parquet   # No incluidos
+│       ├── orders.parquet 
 │       └── costs.parquet
 ├── notebooks/
 │   ├── data_cleaning.ipynb                # Notebook demostrativo de limpieza
